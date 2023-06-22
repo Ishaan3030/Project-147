@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #000000">
+
+        <!--Camera-->
+        <a-entity position="0 0 15">
+            <a-camera></a-camera>
+        </a-entity>
+
+        <a-sky src="https://i2.wp.com/zeevector.com/wp-content/uploads/Colorful-Background-HD.png?fit=1942%2C1476&ssl=1">
+
+        </a-sky>
+
+        <a-plane
+        id="wall"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0xJ_s_kJ7U_sZb3EsVyc1w0pzRjoDuMY7QHn-D7Q5_sbc5-sY0ZoZ0LdDBQE_EYQHNGk&usqp=CAU"
+        position="-1.5 6 -3.3"
+        rotation="0 0 0"
+        width="20"
+        height="12"
+        ></a-plane>
+
+        <a-plane
+        id="wall-poster-right"
+        src="https://static.vecteezy.com/system/resources/previews/008/470/607/original/beautiful-flower-free-png.png"
+        position="5 6 -3.3"
+        rotation="0 0 0"
+        width="4"
+        height="6"
+        ></a-plane>
+
+        <a-plane
+        id="wall-poster-middle"
+        src="https://static.vecteezy.com/system/resources/previews/009/667/949/original/rose-flower-bouquet-watercolor-for-valentine-free-png.png"
+        position="0 6 -3.3"
+        rotation="0 0 0"
+        width="4"
+        height="6"
+        ></a-plane>
+
+        <a-plane
+        id="wall-poster-left"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfq9r_rXSNe1eHhP0FiCsKsVJOBQOjTpF2ZxB-_aKQYgDHIlMcM8l-49q17gMdUDgebXM&usqp=CAU"
+        position="-7 6 -3.3"
+        rotation="0 0 0"
+        width="6"
+        height="6"
+        ></a-plane>
+
+        <a-plane
+        id="floor" 
+        src="https://cdn.pixabay.com/photo/2016/10/29/09/33/abstract-1780184_960_720.png"
+        position="-2 -2 -4"  
+        rotation="-70 0 0" 
+        width="25.5" 
+        height="10"></a-plane>
+
+        <a-cylinder 
+        position="-1.5 11 -3" 
+        radius="0.2" 
+        height="3.5" 
+        color="yellow"
+        ></a-cylinder>
+
+        <a-cone
+        position="-1.5 8.5 -3"
+        radius-bottom="2"
+        height="2"
+        color="yellow">
+    </a-cone>
+
+    <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+     
+    </a-scene>
+</body>
+
+</html>
